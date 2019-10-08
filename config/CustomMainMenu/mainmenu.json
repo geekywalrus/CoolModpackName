@@ -1,0 +1,215 @@
+{
+    "images":
+    {
+        "transparent":
+        {
+            "image" : "modpack:menu/blacktransparent.png",
+            "posX" : -50,
+            "posY" : -50,
+            "width" : 100,
+            "height" : 120,
+            "alignment" : "center"
+        },
+        
+        "minecraft":
+        {
+            "image" : "custommainmenu:textures/gui/minecraft.png",
+            "posX" : -69,
+            "posY" : -75,
+            "width" : 250,
+            "height" : 250,
+            "alignment" : "center"
+        },
+		"warningbackground":
+        {
+            "image" : "modpack:menu/blacktransparent.png",
+            "posX" : -110,
+            "posY" : 9,
+            "width" : 225,
+            "height" : 11,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : -50,
+            "posY" : -50,
+            "width" : 100,
+            "height" : 20,
+            "alignment" : "center",
+            "texture" : "custommainmenu:textures/gui/transparent.png",
+            "shadow" : false,
+			"action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : -50,
+            "posY" : -30,
+            "width" : 100,
+            "height" : 20,
+            "alignment" : "center",
+            "texture" : "custommainmenu:textures/gui/transparent.png",
+            "shadow" : false,
+			"action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "posX" : -50,
+            "posY" : -10,
+            "width" : 100,
+            "height" : 20,
+            "alignment" : "center",
+            "texture" : "custommainmenu:textures/gui/transparent.png",
+            "shadow" : false,
+			"action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "Options",
+            "posX" : -50,
+            "posY" : 10,
+            "width" : 100,
+            "height" : 20,
+            "alignment" : "center",
+            "texture" : "custommainmenu:textures/gui/transparent.png",
+            "shadow" : false,
+			"action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "Language",
+            "posX" : -50,
+            "posY" : 30,
+            "width" : 100,
+            "height" : 20,
+            "alignment" : "center",
+            "texture" : "custommainmenu:textures/gui/transparent.png",
+            "shadow" : false,
+			"action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : -50,
+            "posY" : 50,
+            "width" : 100,
+            "height" : 20,
+            "alignment" : "center",
+            "texture" : "custommainmenu:textures/gui/transparent.png",
+            "shadow" : false,
+			"action" : 
+            {
+                "type" : "quit"
+            }
+        },
+		
+		"refresh":
+        {
+            "text" : "",
+            "posX" : -154,
+            "posY" : 132,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "posX" : -107,
+            "posY" : -7,
+			"fontSize" : .6,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        },
+		"forge":{
+			"text" : "Forge #forgeversion#",
+			"posX" : 2,
+			"posY" : -13,
+			"fontSize" : .6,
+			"color" : -1,
+			"hoverColor" : -1,
+			"alignment" : "bottom_left",
+			"shadow" : false
+		},
+		"modsloaded":{
+			"text" : "#modsloaded# Mods Loaded",
+			"posX" : 2,
+			"posY" : -7,
+			"fontSize" : .6,
+			"color" : -1,
+			"hoverColor" : -1,
+			"alignment" : "bottom_left",
+			"shadow" : false
+		},
+		
+		"modpackname":
+        {
+            "text" : "Cool Modpack Name v0.01 §4ALPHA",
+            "posX" : -93,
+            "posY" : -15,
+			"fontSize" : .6,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        },
+		
+		"alphawarning":
+        {
+            "text" : "§cWARNING: §7This modpack is in alpha! Expect bugs!",
+            "posX" : -108,
+            "posY" : 10,
+            "color" : -1,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "other":
+    { 
+        "panorama":
+        {
+            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
+            "animate" : true,
+            "animationSpeed" : 1,
+            "blur" : true,
+            "gradient" : true
+        }
+    }
+}
