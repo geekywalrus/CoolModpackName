@@ -43,6 +43,7 @@
             "alignment" : "center",
             "texture" : "custommainmenu:textures/gui/transparent.png",
             "shadow" : false,
+			"synced" : true,
 			"action" : 
             {
                 "type" : "openGui",
@@ -60,6 +61,7 @@
             "alignment" : "center",
             "texture" : "custommainmenu:textures/gui/transparent.png",
             "shadow" : false,
+			"synced" : true,
 			"action" : 
             {
                 "type" : "openGui",
@@ -77,6 +79,7 @@
             "alignment" : "center",
             "texture" : "custommainmenu:textures/gui/transparent.png",
             "shadow" : false,
+			"synced" : true,
 			"action" : 
             {
                 "type" : "openGui",
@@ -94,6 +97,7 @@
             "alignment" : "center",
             "texture" : "custommainmenu:textures/gui/transparent.png",
             "shadow" : false,
+			"synced" : true,
 			"action" : 
             {
                 "type" : "openGui",
@@ -183,7 +187,7 @@
 		
 		"modpackname":
         {
-            "text" : "Cool Modpack Name v0.01 §4ALPHA",
+            "text" : "Cool Modpack Name v0.02 §4ALPHA",
             "posX" : -93,
             "posY" : -15,
 			"fontSize" : .6,
@@ -205,10 +209,14 @@
     { 
         "panorama":
         {
-            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
+            "images" : ["modpack:panoramas/cave/panorama_%c.png","modpack:panoramas/nightVillage/panorama_%c.png",
+			"modpack:panoramas/nightVillage2/panorama_%c.png","modpack:panoramas/mountainRavine/panorama_%c.png",
+			"modpack:panoramas/mysticGrove/panorama_%c.png", "modpack:panoramas/reefNight/panorama_%c.png",
+			"modpack:panoramas/nether1/panorama_%c.png", "modpack:panoramas/nether2/panorama_%c.png",
+			"modpack:panoramas/nether3/panorama_%c.png"],
             "animate" : true,
             "animationSpeed" : 1,
-            "blur" : true,
+            "blur" : false,
             "gradient" : true
         }
     }
